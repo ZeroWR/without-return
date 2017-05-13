@@ -1,0 +1,273 @@
+
+/* ---------------------MAIN BODY--------------------- */
+
+html {
+    min-height: 100%;
+    background-color: black;
+}
+
+body {
+    position: relative;
+}
+
+/* ---------------------NAVIGATION--------------------- */
+
+.navbar {
+    margin: 0;
+    padding: 1em;
+    border-radius: 0;
+    background-color: transparent;
+    border: none;
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+.navbar.scrolled {
+    background: white;
+}
+
+.navbar ul li {
+    text-align: left;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    background-color: #888;
+    color: white;
+}
+
+.navbar.scrolled #bs-example-navbar-collapse-1 ul li a {
+    color: black;
+}
+
+.navbar-default .navbar-collapse {
+    border: none;
+}
+
+.navbar-brand {
+    color: black;
+    padding-top: 0;
+    margin-right: auto;
+}
+
+.navbar-brand img {
+    width: 75px;
+}
+
+.navbar-default .navbar-nav li a {
+    color: white;
+    font-size: 1.2em;
+}
+
+#nolight {
+    background-color: transparent;
+    color: white;
+}
+
+/* ---------------------JUMBOTRON--------------------- */
+
+.jumbotron img {
+    width: 100%;
+    max-height: 1200px;
+}
+
+.jumbotron {
+    padding: 0;
+    margin: 0;
+}
+ 
+ /* ---------------------COLUMNS--------------------- */
+
+.col-sm-4 {
+    padding: 0;
+}
+
+.col-sm-6 {
+    padding: 0;
+}
+
+.col-md-8 {
+    padding: 0;
+}
+
+/* ---------------------FOOTER--------------------- */
+
+#footer {
+    position: static;
+    bottom: 0;
+    width: 100%;
+
+    background-color: #ffffff;
+}
+
+#footer a {
+    color: black;
+    text-decoration: none;
+}
+
+.row img {
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+    padding-right: .3em;
+    padding-left: .3em;
+}
+
+ul li i:hover {
+    color: #888;
+}
+
+#social {
+    padding: 0;
+    margin: 0;
+}
+
+#social-row {
+    text-align: center;
+    margin-top: 1em; 
+}
+
+
+#name-row {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.thumbnail {
+    border-radius: 0;
+    padding: 0;
+    margin-top: 2em;
+}
+
+.btn.btn-default {
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+}
+
+.half-rule {
+    width: 150px;
+    margin: 20px auto;
+}
+
+.page-link {
+    padding-top: 70px;
+    margin-top: -70px;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
+}
+
+.text {
+    margin: 2em;
+    font-size: 1.4em;
+}
+
+h3 {
+    margin-left: 1.4em;
+    font-size: 2em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.thumbnail {
+    margin: 0;
+}
+
+.on-anchor {
+    background-color: red;
+}
+
+#spacer {
+    height: 20em;
+}
+
+
+/* DESKTOP */
+@media (min-width: 1200px) {
+    .navbar-default .navbar-collapse {
+        float: right;
+    }
+
+    .navbar ul li {
+        background-color: transparent;
+    }
+}
+
+/* LANDSCAPE TABLET AND MID DESKTOP */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-default .navbar-collapse {
+        float: right;
+    }
+    
+    .navbar ul li {
+        background-color: transparent;
+    }
+}
+
+/* PORTRAIT AND SMALL DESKTOP */
+@media (min-width: 768px) and (max-width: 992px) {
+    .navbar-default .navbar-collapse {
+        float: right;
+    }
+    
+    .navbar ul li {
+        background-color: transparent;
+    }
+
+}
+
+/* LANDSCAPE PHONE AND PORTRAIT TABLET */
+@media (max-width: 767px) {
+    body {
+        margin-top: 70px;
+    }
+    
+    .navbar-default .navbar-collapse {
+        float: none;
+    }
+
+    .navbar {
+        background-color: white;
+    }
+
+    .navbar ul li {
+        background-color: white;
+    }
+
+    #bs-example-navbar-collapse-1 ul li a {
+        color: black;
+    }
+
+    #footer {
+        height: 10em;
+    }
+}
+
+/* PORTRAIT PHONE AND SMALLER */
+@media (max-width: 480px) {
+    #footer {
+        height: 12em;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    #footer {
+        height: 14em;
+    }
+}
+
