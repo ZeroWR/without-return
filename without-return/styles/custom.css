@@ -58,6 +58,10 @@ body {
     width: 75px;
 }
 
+ul {
+    display: block;
+}
+
 .navbar-default .navbar-nav li a {
     color: white;
     font-size: 1.2em;
