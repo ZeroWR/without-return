@@ -98,6 +98,13 @@ ul {
     padding: 0;
 }
 
+/* ---------------------CONTACT--------------------- */
+
+.contacting {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
 /* ---------------------FOOTER--------------------- */
 
 #footer {
@@ -174,9 +181,15 @@ ul li i:hover {
     background-clip: content-box;
 }
 
-.text {
-    margin: 2em;
+.text, .bio-text {
+    margin-top: 1em;
+    margin-bottom: 2em;
     font-size: 1.4em;
+}
+
+.bio-text {
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 h3 {
@@ -200,6 +213,9 @@ h1 {
     height: 20em;
 }
 
+.head-3 {
+    margin-left: 0px;
+}
 
 /* DESKTOP */
 @media (min-width: 1200px) {
