@@ -105,6 +105,16 @@ ul {
     margin-right: 2em;
 }
 
+#name-label, #email-label, #message-label {
+    border-radius: 0px;
+}
+
+.btn-success, .btn-danger {
+    border-radius: 0px;
+    background-color: #888;
+    border: none;
+}
+
 /* ---------------------FOOTER--------------------- */
 
 #footer {
